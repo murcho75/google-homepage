@@ -1,0 +1,31 @@
+body {
+ margin-top: 90px;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 560px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #F0F0F0;
+    border: none;
+    color: #666;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 9px 19px;
+    text-decoration: none;
+    margin: 14px 3px;
+    cursor: pointer;
+}
+
+input[type=submit] {
+
+}
