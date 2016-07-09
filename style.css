@@ -1,10 +1,12 @@
 body {
- margin-top: 90px;
+  margin: 0 30px;
+
 }
 
 section {
   max-width: 600px;
   margin: 0 auto;
+  padding-top: 85px;
   text-align: center;
 }
 
@@ -26,6 +28,41 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
 }
 
-input[type=submit] {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 13px;
+    float: right;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 8px 4px;
+    margin: 10px 6px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration: underline;
+}
+
+.nav-button {
+    background-color: #0066ff;
+    font-weight: 600;
+    color: white;
+    padding: 8px 12px;
+}
+
+.nav-button li a:hover {
+    text-decoration: none;
 }
